@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Build and deployment artifacts
+.vercel/
+.next/
+out/
+.serverless/
+functions/
+.next/
+
+# Testing
+coverage/
+.nyc_output/
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# macOS
+._*
+
+# Windows
+[Tt]humbs.db
+*.stackdump

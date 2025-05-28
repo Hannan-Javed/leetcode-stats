@@ -17,7 +17,7 @@ function createBadge(streak) {
         <rect width="${width}" height="20" fill="url(#b)"/>
       </g>
       <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="11">
-        <text x="40" y="15" fill="#010101" fill-opacity=".3">LeetCode</text>
+        <text x="40" y="15" fill="#010101" fill-opacity=".3">Longest LeetCode Streak</text>
         <text x="40" y="14">LeetCode</text>
         <text x="${80 + (width-80)/2}" y="15" fill="#010101" fill-opacity=".3">${streak} days</text>
         <text x="${80 + (width-80)/2}" y="14">${streak} days</text>
